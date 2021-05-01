@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Login"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Terminar_Evaluacion"></activity>
+        <activity android:name=".score" />
+        <activity android:name=".Pregunta10" />
+        <activity android:name=".Pregunta9" />
+        <activity android:name=".Pregunta8" />
+        <activity android:name=".Pregunta7" />
+        <activity android:name=".Pregunta6" />
+        <activity android:name=".Pregunta5" />
+        <activity android:name=".Pregunta4" />
+        <activity android:name=".Pregunta3" />
+        <activity android:name=".Pregunta2" />
+        <activity android:name=".Pregunta1" />
+        <activity android:name=".Cuestionario" />
+        <activity android:name=".inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bienvenida_maestro" />
+        <activity android:name=".registrar_maestro" />
+        <activity android:name=".login_maesto" />
+        <activity android:name=".login" />
+        <activity android:name=".registrar" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
